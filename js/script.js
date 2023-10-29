@@ -3,7 +3,7 @@ const minuteHand = document.querySelector('.minute-hand');
 const secondHand = document.querySelector('.second-hand');
 
 const getTime = () => {
-    const date = new Date();
+    const date = new Date(); 
     
     return {
         hours: date.getHours(),
